@@ -3,7 +3,8 @@
   :url "http://github.com/otfrom/ldnclj-titanic"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.4.0"]
+  :dependencies [[incanter "1.4.1"]
+                 [org.clojure/clojure "1.4.0"]
                  [clojure-csv/clojure-csv "2.0.0-alpha1"]
                  [cascalog "1.10.0"]
                  [org.apache.hadoop/hadoop-core "1.1.1"]
